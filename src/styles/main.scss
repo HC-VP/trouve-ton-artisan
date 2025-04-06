@@ -1,0 +1,31 @@
+:root {
+    --bs-primary: #005aa7;
+    --bs-secondary: #003c72;
+  }
+
+  @font-face {
+    font-family: 'Graphik';
+    src: url('../assets/fonts/Graphik-Regular-Trial.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Graphik';
+    src: url('../assets/fonts/Graphik-Bold-Trial.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Graphik', sans-serif; 
+    background-color: #f7f7f7;
+    color: #222;
+  }
+  
+  h1, h2 {
+    color: var(--bs-primary);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
