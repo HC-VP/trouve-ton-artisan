@@ -5,6 +5,7 @@ import ArtisanDetails from './pages/ArtisanDetails';
 import NotFound from './pages/NotFound';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Recherche from './pages/Recherche';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/categorie/:categorieId" element={<ArtisanListe />} />
           <Route path="/artisan/:id" element={<ArtisanDetails />} />
           <Route path="/artisan/:id" element={<ArtisanDetails />} />
+          <Route path='/recherche' element={<Recherche />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
