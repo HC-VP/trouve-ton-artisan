@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
-import logo from '../assets/Logo.png'; 
+import logo from '../assets/images/Logo.png'; 
 
 function Header() {
   const [query, setQuery] = useState('');
@@ -8,7 +8,7 @@ function Header() {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    navigate(`/categorie/recherche?q=${encodeURIComponent(query)}`);
+    navigate(`/recherche?q=${encodeURIComponent(query)}`);
   };
 
   return (
