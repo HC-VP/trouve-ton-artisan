@@ -8,7 +8,7 @@ function Header() {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    navigate(`/categorie/recherche?q=${encodeURIComponent(query)}`);
+    navigate(`/recherche?q=${encodeURIComponent(query)}`);
   };
 
   return (
