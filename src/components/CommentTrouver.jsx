@@ -13,7 +13,7 @@ function CommentTrouver() {
           {etapes.map((texte, index) => (
             <div className="col-md-3 text-center mb-4" key={index}>
               <div className="p-3 border rounded h-100 bg-light">
-              <h3 className="text-primary display-6 fw-bold">{index + 1}</h3>
+              <h3 className="step-number">{index + 1}</h3>
                 <p>{texte}</p>
               </div>
             </div>

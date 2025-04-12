@@ -53,7 +53,7 @@ function ArtisanDetails() {
 
   return (
     <div className="container my-5">
-      <h1 className="text-primary">{artisan.name}</h1>
+      <h1 className="title-primary">{artisan.name}</h1>
       <div className="mb-3">{'★'.repeat(Math.round(parseFloat(artisan.note)))}</div>
       <p><strong>Spécialité :</strong> {artisan.specialty}</p>
       <p><strong>Ville :</strong> {artisan.location}</p>

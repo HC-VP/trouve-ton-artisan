@@ -14,7 +14,7 @@ function ArtisanListe() {
   return (
     <div>
       <header className="text-center my-4">
-        <h1 className="text-primary">Artisans : {nomCategorie}</h1>
+        <h1 className="title-primary">Artisans : {nomCategorie}</h1>
         <p className="lead">Voici les artisans disponibles dans cette catégorie.</p>
       </header>
 

@@ -80,10 +80,10 @@ function Header() {
 
         <nav className="d-none d-lg-block">
           <ul className="nav">
-            <li className="nav-item"><Link className="nav-link" to="/categorie/batiment">Bâtiment</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/categorie/services">Services</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/categorie/fabrication">Fabrication</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/categorie/alimentation">Alimentation</Link></li>
+            <li className="nav-item"><Link className="nav-link categorie-link" to="/categorie/batiment">Bâtiment</Link></li>
+            <li className="nav-item"><Link className="nav-link categorie-link" to="/categorie/services">Services</Link></li>
+            <li className="nav-item"><Link className="nav-link categorie-link" to="/categorie/fabrication">Fabrication</Link></li>
+            <li className="nav-item"><Link className="nav-link categorie-link" to="/categorie/alimentation">Alimentation</Link></li>
           </ul>
         </nav>
         <form onSubmit={handleSearch} className="d-none d-lg-flex ms-3">
@@ -125,7 +125,7 @@ function Header() {
             {/* Titre encadré */}
             <div
             className="mb-4 rounded px-3 py-2"
-            style={{ backgroundColor: '#005aa7', color: '#fff' }}
+            style={{ backgroundColor: '#00497c', color: '#fff' }}
             >
             <h5 className="mb-0">Catégories</h5>
             </div>
@@ -147,7 +147,7 @@ function Header() {
                     color: '#222',
                     fontWeight: '500',
                     }}
-                    onMouseOver={(e) => (e.target.style.color = '#005aa7')}
+                    onMouseOver={(e) => (e.target.style.color = '#00497c')}
                     onMouseOut={(e) => (e.target.style.color = '#222')}
                 >
                     {label}
