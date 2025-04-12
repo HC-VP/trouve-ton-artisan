@@ -1,6 +1,7 @@
 :root {
-    --bs-primary: #005aa7;
-    --bs-secondary: #003c72;
+    --bs-primary: #00497c;
+    --bs-secondary: #0074c7;
+    --text-color: #384050;
   }
 
   @font-face {
@@ -20,7 +21,7 @@
   body {
     font-family: 'Graphik', sans-serif; 
     background-color: #f7f7f7;
-    color: #222;
+    color: var(--text-color);
   }
   
   h1, h2 {
@@ -28,4 +29,37 @@
     font-weight: 600;
     letter-spacing: 0.5px;
   }
+
+  .title-primary {
+    color: var(--bs-primary);
+  }
+
+  .btn-primary {
+    background-color: #0074c7;
+    border-color: #0074c7;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: #00497c;
+    border-color: #00497c;
+  }
+
+  .categorie-link {
+    color: #00497c !important;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+    padding: 0.5rem 1rem;
+  }
+
+  .categorie-link:hover,
+  .categorie-link:focus {
+    color: #0074c7 !important;
+    text-decoration: none;
+  }
   
+  .step-number {
+    color: #0074c7;
+    font-size: 2rem;
+    font-weight: bold;
+  }
