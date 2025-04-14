@@ -130,7 +130,9 @@ node server.js
 
 Le site a été hébergé en ligne en utilisant Vercel, il est disponible ici : 
 
-https://trouve-ton-artisan-nine.vercel.app
+https://trouve-ton-artisan-git-doc-readme-complet-hc-vps-projects.vercel.app
+
+Le site est hébergé depuis cette branche en particulier pour respecter la consigne du devoir spécifiant qu'aucun merge sur la branche main ne devait être exécuté.
 
 ## Validation W3C
 
