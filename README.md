@@ -128,6 +128,8 @@ node server.js
 
 ### 5. Hébergement
 
+Le site a été hébergé en ligne en utilisant Vercel, il est disponible ici : 
+
 https://trouve-ton-artisan-nine.vercel.app
 
 ## Validation W3C
