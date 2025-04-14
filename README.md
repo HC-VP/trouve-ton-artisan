@@ -130,5 +130,18 @@ node server.js
 
 https://trouve-ton-artisan-nine.vercel.app
 
+## Validation W3C
 
+Le site a été testé avec les outils officiels du W3C :
 
+- [HTML Validator](https://validator.w3.org/) : **Aucune erreur détectée**
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) : **Aucune erreur détectée**
+
+ Voir les captures d’écran en annexe. (dossier captures)
+
+## Captures d'écran
+
+Les captures sont disponibles dans le dossier `/captures/` :
+
+- Maquettes (desktop, mobile et tablette)
+- Résultats W3C HTML et CSS
