@@ -128,11 +128,16 @@ node server.js
 
 ### 5. Hébergement
 
-Le site a été hébergé en ligne en utilisant Vercel, il est disponible ici : 
+Le site a été hébergé en ligne en utilisant Vercel.
 
-https://trouve-ton-artisan-git-doc-readme-complet-hc-vps-projects.vercel.app
+Le site est déployé depuis la branche `final/demo` pour respecter les consignes spécifiques du projet :  
 
-Le site est hébergé depuis cette branche en particulier pour respecter la consigne du devoir spécifiant qu'aucun merge sur la branche main ne devait être exécuté.
+- Aucun commit ou merge direct sur `main`.  
+- Cette branche rassemble toutes les fonctionnalités finales prêtes à être évaluées.  
+
+https://trouve-ton-artisan-git-final-demo-hc-vps-projects.vercel.app
+
+
 
 ## Validation W3C
 
